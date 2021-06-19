@@ -21,8 +21,7 @@ def p_arr(arr): sys.stdout.write(" ".join(map(str, arr)) + "\n")
 
 
 def number_of_squares(l, b) -> int:
-    res = 0
-    while l != b or l != 0 or
+    res = ceil(max(l, b) / min(l, b))
     return res
 
 
